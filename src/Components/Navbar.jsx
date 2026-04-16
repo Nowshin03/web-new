@@ -36,7 +36,7 @@ function Navbar(props) {
   return (
     <nav>
       <div className="logo1">
-        <h3>VS LMS PORTAL</h3>
+        <h1> StudyHub </h1>
       </div>
 
       <div className="navigation">

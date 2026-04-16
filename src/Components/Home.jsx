@@ -31,7 +31,7 @@ function Home() {
       <section id="home">
         <h2>Enhance your future</h2>
         <p>
-          OneYes Academy is a learning platform with structured courses,
+          Study is a learning platform with structured courses,
           videos, and assessments.
         </p>
 
@@ -77,7 +77,7 @@ function Home() {
             <div className="courses" key={i}>
               <img src={img} alt="course" />
               <div className="details">
-                <h6>Course {i + 1}</h6>
+                <h1>Course {i + 1}</h1>
                 <div>
                   {[...Array(5)].map((_, idx) => (
                     <FontAwesomeIcon key={idx} icon={faStar} />
