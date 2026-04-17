@@ -1,0 +1,70 @@
+/* dstyle.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #0016ab;
+    margin-top: 20px;
+  }
+  
+  .table-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .data-table th,
+  .data-table td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .data-table th {
+    background-color: #ff73ff;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .data-table td {
+    background-color: #f0f0f0;
+    color: #000;
+  }
+  
+  .data-table .progress {
+    color: #00b300;
+    font-weight: bold;
+  }
+  
+  .data-table .certificate a {
+    color: #0016ab;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .data-table .certificate a:hover {
+    text-decoration: underline;
+  }
+  
+  .data-table tr:hover {
+    background-color: #e7e7e7;
+  }
+  
